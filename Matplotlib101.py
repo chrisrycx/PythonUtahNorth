@@ -48,6 +48,7 @@ import datetime as dt
 #x = [dt.datetime(2018,4,18,18,0),dt.datetime(2018,4,18,18,15),dt.datetime(2018,4,18,18,20),dt.datetime(2018,4,18,18,55)]
 #y = [5,6,7,8]
 
+#fig, axs = plt.subplots...
 #plt.plot(x,y,'r',x,y2,'b')
 #plt.show()
 
