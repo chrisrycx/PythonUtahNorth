@@ -1,0 +1,43 @@
+## Equipment
+- MDL
+- Raspberry Pi
+- CSI Logger
+- TPH sensor
+- RMYoung
+- Thermocouple
+- RS485-USB
+- Dyacon Laptop w/ converter
+
+## Outline
+- What is a datalogger?
+    - A device that communicates with sensors and records data.
+    - Demo: Different examples of dataloggers
+    - Demo: Different kinds of sensors
+    - Demo: Reading and logging a sensor using Modbus Reader
+    - Typical datalogger features
+        - Table:
+- Databear
+    - Open-source, Python based datalogger software.
+        - Hardware independent
+        - Easily configured
+    - Features so far
+        - Table:
+    - Installation/Configuration
+        - Demo: Databear repository
+        - Demo: Configuration with YAML
+    - Demo: Databear on Raspberry Pi
+    - Code overview
+        - Schedule library
+        - Sensor interface
+            - Factory method
+        - Processing
+        - Output CSV
+    - Issues
+        - Threading
+        - Measurement timing
+- Open source projects
+    - Packaging code - structure and workflow
+        - Local benefits - paths
+    - PYPI - accounts
+    - Deploying to PYPI
+
